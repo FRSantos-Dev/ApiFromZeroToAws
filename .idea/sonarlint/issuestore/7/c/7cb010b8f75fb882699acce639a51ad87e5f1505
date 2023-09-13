@@ -1,0 +1,43 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(£Í²©
+Z	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(†…ª
+`	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(±˜è²ùÿÿÿÿ
+`	java:S112."FDefine and throw a dedicated exception instead of using a generic one.(›©ğøÿÿÿÿ
+Z	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(İÃ*
+[	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(Ôä¢“
+s
+java:S1192"]Define a constant instead of duplicating this literal "Please set a numeric value!" 12 times.(Ç¥ş²
+t
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "result".(ºŒ¾ã
+y
+java:S1488 "^Immediately return this expression instead of assigning it to the temporary variable "result".(ª…ÁÉúÿÿÿÿ
+t
+java:S1488)"^Immediately return this expression instead of assigning it to the temporary variable "result".(ÂÇ™×
+y
+java:S14882"^Immediately return this expression instead of assigning it to the temporary variable "result".(¥ì¢õúÿÿÿÿ
+t
+java:S1488;"^Immediately return this expression instead of assigning it to the temporary variable "result".(˜š»à
+y
+java:S1488D"^Immediately return this expression instead of assigning it to the temporary variable "result".(î¯ Úÿÿÿÿÿ
+^
+java:S35182"CMake sure this expression can't be zero before doing this division.(¥ì¢õúÿÿÿÿ
+c
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ä±§áşÿÿÿÿ
+c
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(çÍáùûÿÿÿÿ
+c
+java:S4488$"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(§á¨ùÿÿÿÿ
+c
+java:S4488-"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ÃÔø‰ıÿÿÿÿ
+c
+java:S44886"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(»ÅËÊøÿÿÿÿ
+^
+java:S4488?"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(¥¼íİ
+^
+java:S5361J"HReplace this call to "replaceAll()" by a call to the "replace()" method.(éµ÷Ë
+^
+java:S5361Q"HReplace this call to "replaceAll()" by a call to the "replace()" method.(éµ÷Ë
+W
+java:S6353R"<Use concise character class syntax '\\d' instead of '[0-9]'.(ÈïªÅıÿÿÿÿ
+W
+java:S6353R"<Use concise character class syntax '\\d' instead of '[0-9]'.(ÈïªÅıÿÿÿÿ
