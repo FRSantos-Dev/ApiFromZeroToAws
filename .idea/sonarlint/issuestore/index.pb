@@ -1,12 +1,6 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-Ž
-^exception-handling/src/main/java/br/com/rocha/exceptionhandling/controller/MathController.java,7\c\7cb010b8f75fb882699acce639a51ad87e5f1505
-Ž
-^exception-handling/src/main/java/br/com/rocha/exceptionhandling/converter/NumberConverter.java,a\5\a58fd39c0541913ea0d2c7eb5744236f37afe7f7
-‰
-Yexception-handling/src/main/java/br/com/rocha/exceptionhandling/converter/SimpleMath.java,8\d\8d1c29d040dedb8897a45cb0b2643f79aa2b79b0
 ©
 yexception-handling/src/main/java/br/com/rocha/exceptionhandling/exceptions/handler/UnsupportedMathOperationException.java,a\4\a4e1f41bdafb06bda57523a7080cac4678fa4824
 œ
