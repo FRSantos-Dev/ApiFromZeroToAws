@@ -1,18 +1,12 @@
 package br.com.rocha.exceptionhandling.controllers;
 
-import java.util.List;
-
 import br.com.rocha.exceptionhandling.model.Person;
+import br.com.rocha.exceptionhandling.services.PersonServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-
-import br.com.rocha.exceptionhandling.services.PersonServices;
+import java.util.List;
 
 @RestController
 @RequestMapping("/person")
@@ -20,7 +14,7 @@ public class PersonController {
 	
 	@Autowired
 	private PersonServices service;
-	///private PersonServices service = new PersonServices();
+	///private br.com.rocha.exceptionhandling.services.PersonServices service = new br.com.rocha.exceptionhandling.services.PersonServices();
 	
 	@RequestMapping(method=RequestMethod.GET,
 			produces = MediaType.APPLICATION_JSON_VALUE)
@@ -29,7 +23,7 @@ public class PersonController {
 	}
 	
 	@RequestMapping(value = "/{id}",
-			method=RequestMethod.GET,
+			method= RequestMethod.GET,
 			produces = MediaType.APPLICATION_JSON_VALUE)
 	public Person findById(@PathVariable(value = "id") String id) {
 		return service.findById(id);

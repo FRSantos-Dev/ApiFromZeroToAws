@@ -1,15 +1,12 @@
 package br.com.rocha.exceptionhandling.services;
 
-import java.util.ArrayList;
-
-import java.util.List;
-import java.util.concurrent.atomic.AtomicLong;
-import java.util.logging.Logger;
-
 import br.com.rocha.exceptionhandling.model.Person;
 import org.springframework.stereotype.Service;
 
-
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicLong;
+import java.util.logging.Logger;
 
 @Service
 public class PersonServices {
