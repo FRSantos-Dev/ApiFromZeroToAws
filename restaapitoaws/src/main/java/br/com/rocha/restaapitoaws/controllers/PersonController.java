@@ -29,14 +29,14 @@ public class PersonController {
 
 	@PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE,
 			produces = MediaType.APPLICATION_JSON_VALUE)
-	public Person create(@RequestBody Person person) {
-		return service.create(person);
+	public Person create(@RequestBody Person personVO) {
+		return service.create(personVO);
 	}
 
 	@PutMapping(consumes = MediaType.APPLICATION_JSON_VALUE,
 			produces = MediaType.APPLICATION_JSON_VALUE)
-	public Person update(@RequestBody Person person) {
-		return service.update(person);
+	public Person update(@RequestBody Person personVO) {
+		return service.update(personVO);
 	}
 
 

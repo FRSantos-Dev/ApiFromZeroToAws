@@ -33,26 +33,26 @@ public class PersonServices {
 			.orElseThrow(() -> new ResourceNotFoundException("No records found for this ID!"));
 	}
 
-	public Person create(Person person) {
+	public Person create(Person personVO) {
 
 		logger.info("Creating one person!");
 
-		return repository.save(person);
+		return repository.save(personVO);
 	}
 
-	public Person update(Person person) {
+	public Person update(Person personVO) {
 
 		logger.info("Updating one person!");
 
-		var entity = repository.findById(person.getId())
+		var entity = repository.findById(personVO.getId())
 			.orElseThrow(() -> new ResourceNotFoundException("No records found for this ID!"));
 
-		entity.setFirstName(person.getFirstName());
-		entity.setLastName(person.getLastName());
-		entity.setAddress(person.getAddress());
-		entity.setGender(person.getGender());
+		entity.setFirstName(personVO.getFirstName());
+		entity.setLastName(personVO.getLastName());
+		entity.setAddress(personVO.getAddress());
+		entity.setGender(personVO.getGender());
 
-		return repository.save(person);
+		return repository.save(personVO);
 	}
 
 	public void delete(Long id) {
