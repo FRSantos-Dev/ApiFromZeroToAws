@@ -75,10 +75,10 @@ public class Person implements Serializable {
             return true;
         if (o == null || getClass() != o.getClass())
             return false;
-        Person person = (Person) o;
-        return Objects.equals(id, person.id) && Objects.equals(firstName, person.firstName)
-                && Objects.equals(lastName, person.lastName) && Objects.equals(address, person.address)
-                && Objects.equals(gender, person.gender);
+        Person personVO = (Person) o;
+        return Objects.equals(id, personVO.id) && Objects.equals(firstName, personVO.firstName)
+                && Objects.equals(lastName, personVO.lastName) && Objects.equals(address, personVO.address)
+                && Objects.equals(gender, personVO.gender);
     }
 
     @Override
