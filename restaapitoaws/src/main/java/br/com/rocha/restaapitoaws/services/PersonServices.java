@@ -54,7 +54,7 @@ public class PersonServices {
 	public PersonVOV2 createV2(PersonVOV2 person) {
 
 		logger.info("Creating one person with V2!");
-		var entity = mapper.convertVoTOEntity(person);//converteo  VO para entidade do tipo Person
+		var entity = mapper.convertVoToEntity(person);//converteo  VO para entidade do tipo Person
 		var vo =  mapper.convertEntityToVo(repository.save(entity));//salva ele no banco,
 		// pega esse resultado e passa para um objeto VO
 		return vo;
