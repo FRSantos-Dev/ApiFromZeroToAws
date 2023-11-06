@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import br.com.rocha.restaapitoaws.services.PersonServices;
 
 @RestController
-@RequestMapping("/person")
+@RequestMapping("/api/person/v1")
 public class PersonController {
 
 	@Autowired
